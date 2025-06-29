@@ -1,0 +1,45 @@
+###############################################################################
+# EE449 – Python / ML coursework
+# Place this file in the repo root (next to HW1-3 folders)
+###############################################################################
+
+# 1 ─ Python byte-code & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2 ─ Local virtual-environment folders
+env*/
+venv*/
+.venv*/
+ENV*/
+venv_hw3/
+ee449_rl_env/
+
+# 3 ─ Checkpoints / large binary artefacts
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.h5
+*.pt
+*.pth
+*checkpoint*
+
+# 4 ─ Large dataset to exclude
+training_artificial_neural_network/data/
+
+# 5 ─ IDE & OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# stray SSH keys accidentally saved here
+github
+github.pub
+
+# stray key files with broken encoding
+\303
+\303.pub
